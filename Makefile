@@ -1,10 +1,13 @@
-DESTDIR := /tmp/retroarch-joypad-autoconfig
+INSTALLDIR := /usr/share/libretro/autoconfig
 
 all:
 	@echo "Nothing to make for retroarch-joypad-autoconfig."
 
 install:
-	mkdir -p $(DESTDIR)
-	cp -ar * $(DESTDIR)
-	rm $(DESTDIR)/Makefile
-	rm $(DESTDIR)/configure
+	mkdir -p $(DESTDIR)$(INSTALLDIR)
+	cp -ar * $(DESTDIR)$(INSTALLDIR)
+	rm -rf $(DESTDIR)$(INSTALLDIR)/Makefile \
+		$(DESTDIR)$(INSTALLDIR)/configure
+
+test-install: all
+	DESTDIR=/tmp/build $(MAKE) install
