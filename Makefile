@@ -1,4 +1,5 @@
-INSTALLDIR := /usr/share/libretro/autoconfig
+PREFIX := /usr
+INSTALLDIR := $(PREFIX)/share/libretro/autoconfig
 
 all:
 	@echo "Nothing to make for retroarch-joypad-autoconfig."
