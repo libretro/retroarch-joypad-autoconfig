@@ -90,6 +90,8 @@ These are attributes that describe the mapping between physical buttons/axes and
 Attributes are named following the pattern `input` + `button/axis name` + `input type`. 
 Input type can be either `axis` or `btn` (button)
 
+![Retropad Layout](/retropad_layout.png?raw=true)
+
 Attribute | Description
 ------------ | -------------
 input_b_btn | Device button mapped to Retropad's B button
@@ -102,20 +104,20 @@ input_left_btn | Device button mapped to Retropad's D-Pad Left button
 input_right_btn | Device button mapped to Retropad's D-Pad Right button
 input_a_btn | Device button mapped to Retropad's A button
 input_x_btn | Device button mapped to Retropad's X button
-input_l_btn | Device button mapped to Retropad's Left bumper
-input_r_btn | Device button mapped to Retropad's Right bumper
+input_l_btn | Device button mapped to Retropad's Left shoulder
+input_r_btn | Device button mapped to Retropad's Right shoulder
 input_l2_btn | Device button mapped to Retropad's Left trigger
 input_r2_btn | Device button mapped to Retropad's Right trigger
-input_l3_btn | Device button mapped to Retropad's Left Stick Button
-input_r3_btn | Device button mapped to Retropad's Right Stick Button
-input_l_x_plus_axis | Device axis mapped to Retropad's Left Stick (Right)
-input_l_x_minus_axis | Device axis mapped to Retropad's Left Stick (Left)
-input_l_y_plus_axis | Device axis mapped to Retropad's Left Stick (Down)
-input_l_y_minus_axis | Device axis mapped to Retropad's Left Stick (Up)
-input_r_x_plus_axis | Device axis mapped to Retropad's Right Stick (Right)
-input_r_x_minus_axis | Device axis mapped to Retropad's Right Stick (Left)
-input_r_y_plus_axis | Device axis mapped to Retropad's Right Stick (Down)
-input_r_y_minus_axis | Device axis mapped to Retropad's Right Stick (Up)
+input_l3_btn | Device button mapped to Retropad's Left Thumb Button
+input_r3_btn | Device button mapped to Retropad's Right Thumb Button
+input_l_x_plus_axis | Device axis mapped to Retropad's Left Analog (Right)
+input_l_x_minus_axis | Device axis mapped to Retropad's Left Analog (Left)
+input_l_y_plus_axis | Device axis mapped to Retropad's Left Analog (Down)
+input_l_y_minus_axis | Device axis mapped to Retropad's Left Analog (Up)
+input_r_x_plus_axis | Device axis mapped to Retropad's Right Analog (Right)
+input_r_x_minus_axis | Device axis mapped to Retropad's Right Analog (Left)
+input_r_y_plus_axis | Device axis mapped to Retropad's Right Analog (Down)
+input_r_y_minus_axis | Device axis mapped to Retropad's Right Analog (Up)
 input_menu_toggle_btn | Device button mapped to Retropad's Menu button
 
 #### 3. Input descriptors
