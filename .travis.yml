@@ -1,0 +1,4 @@
+language: ruby
+rvm:
+  - 2.5.3
+script: ruby verify_duplicate_profiles.rb
