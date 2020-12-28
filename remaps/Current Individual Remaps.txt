@@ -1,0 +1,5 @@
+These files remap the controller for specific games that require it
+Sega Saturn Wheel maps differently
+Right now we have any games that use the Sega Saturn Wheel in here with remaps people have made and shared
+Shout out to Pete for Sega Rally Championship
+Again these are only needed if you want to use the sega saturn wheel accessory
