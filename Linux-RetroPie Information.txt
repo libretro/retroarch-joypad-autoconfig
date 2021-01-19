@@ -1,0 +1,5 @@
+Copy the 99-blissbox4play.rules to /etc/udev/rules.d
+Else it will not report the controller properly and the configs won't work
+Use the udev configs for linux/retropie
+
+Special Thanks to MizterB for the file
