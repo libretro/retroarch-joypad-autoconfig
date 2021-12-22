@@ -8,7 +8,7 @@ The autoconfig files included in this repository are used to recognize input dev
 
 If your input device is not recognized by RetroArch even after updating the controller profiles, then you can generate a new profile for it from RetroArch itself.
 
-You can find detailed instructions to do this in the [official website](https://www.retroarch.com/index.php?page=joypad-autoconfig).
+You can find detailed instructions to do this in the [official website](https://www.retroarch.com/index.php?page=controller-autoconfig).
 
 ## Uploading your own autoconfig file
 
