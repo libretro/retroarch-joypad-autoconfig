@@ -13,3 +13,6 @@ install:
 
 test-install: all
 	DESTDIR=/tmp/build $(MAKE) install
+
+test:
+	ruby .verify_duplicate_profiles.rb
