@@ -7,7 +7,9 @@ all:
 
 install:
 	for driver in android dinput hid linuxraw mfi parport qnx sdl2 udev x xinput; do \
-		install -Dm644 -t $(DESTDIR)$(INSTALLDIR)/$$driver $$driver/*.cfg; \
+		for file in $$driver/*.cfg; do \
+			install -Dm644 -t $(DESTDIR)$(INSTALLDIR)/$$driver "$$file"; \
+		done \
 	done
 	install -Dm644 -t $(DESTDIR)$(DOC_DIR) COPYING README.md retropad_layout.png
 
