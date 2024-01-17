@@ -10,7 +10,7 @@ If your input device is not recognized by RetroArch even after updating the cont
 
 You can find detailed instructions to do this in the [official website](https://www.retroarch.com/index.php?page=controller-autoconfig).
 
-Please **always run `Settings` -> `Input` -> `RetroPad Binds` -> `Port 1 Controls` -> `Save Controller Profile`** in order to generate correct autoconfig file name, and file content (including `input_device`). Also, please do not manually modify our existing autoconfig files for controllers if you don't have physical access to generate autoconfig files for them by yourself.
+Please **always run `Settings` -> `Input` -> `RetroPad Binds` -> `Port 1 Controls` -> `Save Controller Profile`** in order to generate correct autoconfig file name, and file content (including `input_device`). Also, only modify existing autoconfig files with data from `Save Controller Profile` generated autoconfig files, with other words, do not autoconfig files for controllers that you don't own.
 
 ## Uploading your own autoconfig file
 
