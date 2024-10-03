@@ -8,7 +8,7 @@ The autoconfig files included in this repository are used to recognize input dev
 
 If your input device is not recognized by RetroArch even after updating the controller profiles, then you can generate a new profile for it from RetroArch itself.
 
-You can find detailed instructions to do this in the [official website](https://www.retroarch.com/index.php?page=controller-autoconfig).
+You can find detailed instructions to do this in our [Joypad Auto Configuration](https://docs.libretro.com/guides/controller-autoconfiguration/) guide.
 
 Please **always run `Settings` -> `Input` -> `RetroPad Binds` -> `Port 1 Controls` -> `Save Controller Profile`** in order to generate correct autoconfig file name, and file content (including `input_device`). Also, only modify existing autoconfig files with data from `Save Controller Profile` generated autoconfig files, with other words, do not autoconfig files for controllers that you don't own.
 
